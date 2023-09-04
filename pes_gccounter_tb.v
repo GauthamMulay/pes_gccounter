@@ -21,7 +21,7 @@
 
 // Gray counter
 
-module iiitb_gc
+module pes_gccounter
 (
 	input clk, enable, reset,
 	output reg [7:0] gray_count
