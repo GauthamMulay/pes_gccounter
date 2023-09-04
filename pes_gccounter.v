@@ -20,11 +20,11 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module iiitb_gc_tb();
+module pes_gccounter_tb();
     reg clk, enable, reset;
     wire [7:0] gray_count;
     
-    iiitb_gc gc1(clk, enable, reset, gray_count);
+    pes_gccounter gc1(clk, enable, reset, gray_count);
     
     initial
     begin
